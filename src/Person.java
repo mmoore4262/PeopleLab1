@@ -7,7 +7,7 @@ public abstract class Person {
         this.firstName=firstName;
         this.familyName=familyName;
     }
-    public abstract String toString();
+   
     public String getFirstName()
     {
         return firstName;
