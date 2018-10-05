@@ -4,7 +4,11 @@ public class Runner {
 
     public static void main (String[] args)
     {
-        Teacher 
+
+        Teacher sampleTeacher("Science", "Mr.");
+        while (familtNames)
+        Student[] students={};
+
     }
 
 
