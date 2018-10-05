@@ -1,25 +1,24 @@
 public class Teacher extends Person
 {
-    private String Subject;
-    private String Title;
-    public Teacher (String Subject, String Title)
+    private String subject;
+    private String title;
+    public Teacher (String Subject, String Title, String familyName, String firstName)
     {
-        super("Teacher", "dalton");
-        this.familyName = familyName;
-        this.Subject = Subject;
-        this.Title = Title;
+        super(firstName,familyName);
+        this.subject = Subject;
+        this.title = Title;
 
     }
 
     public String getSubject() {
-        return Subject;
+        return this.subject;
     }
 
-    public void setSubject(String subject) {
-        Subject = subject;
+    public String getFamilyName(){
+        return this.familyName;
     }
     public String toString()
     {
-        return Title + "." + familyName;
+        return (this.title + "." + familyName);
     }
 }

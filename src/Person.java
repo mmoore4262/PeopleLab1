@@ -1,6 +1,6 @@
 public abstract class Person {
-    private String firstName;
-    private String familyName;
+    String firstName;
+    String familyName;
 
     public Person(String firstName, String familyName)
     {
@@ -35,6 +35,7 @@ public abstract class Person {
             return false;
         }
     }
+    public abstract String toString();
 }
 
 

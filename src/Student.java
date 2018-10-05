@@ -28,7 +28,7 @@ public class Student extends Person
 
     @Override
     public String toString() {
-        return (FamilyName+FirstName);
+        return (FamilyName+ " " +FirstName);
     }
 }
 

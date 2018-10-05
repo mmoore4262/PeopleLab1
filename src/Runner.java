@@ -4,10 +4,13 @@ public class Runner {
 
     public static void main (String[] args)
     {
+        Student sampleStudent = new Student("Tim","Tom");
+        Teacher sampleTeacher =  new Teacher("Science","Mr","Liu","Phillipe");
 
-        Teacher sampleTeacher("Science", "Mr.");
-        while (familtNames)
         Student[] students={};
+
+        System.out.println(sampleTeacher);
+        System.out.println(sampleStudent);
 
     }
 
