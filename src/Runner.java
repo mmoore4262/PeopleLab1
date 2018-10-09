@@ -9,11 +9,9 @@ public class Runner {
 
         Student[] students={};
 
-        System.out.println(sampleTeacher);
+        System.out.println(("Subject:" + sampleTeacher.getSubject() + " " + sampleTeacher));
         System.out.println(sampleStudent);
 
     }
-
-
 
 }
